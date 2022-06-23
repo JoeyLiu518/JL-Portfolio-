@@ -123,9 +123,12 @@ button:hover{
     padding-bottom:10px;
     font-size:20px;
 }
+/* main container for work section */
+
 .secondcontainer{
     display:flex;
     flex-direction: row;
+    justify-content: space-around;
     
 }
 .workheader{
@@ -138,37 +141,15 @@ button:hover{
 #padding{
     padding-left: 10px;
 }
-/* Tried to move objects around to make it even, could not figure it out.*/
-.project1{
+/* project pics*/
+.projectpic{
     width: 100px;
     height: 100px;
-    justify-content: space-evenly;
     display:flex;
     cursor: pointer;
     padding-top: 10px;
-    padding-left: 150px;
-    flex-direction:row
 }
-.project2{
-    width: 100px;
-    height: 100px;
-    justify-content: space-evenly;
-    display:flex;
-    cursor: pointer;
-    padding-top: 10px;
-    padding-left: 350px;
-    flex-direction:row
-}
-.project3{
-    width: 100px;
-    height: 100px;
-    justify-content: space-evenly;
-    display:flex;
-    cursor: pointer;
-    padding-top: 10px;
-    padding-left: 650px;
-    flex-direction:row
-}
+
 /*Footer Styling*/
 footer{
     height:100%;
