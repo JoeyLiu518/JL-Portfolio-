@@ -120,13 +120,50 @@ button:hover{
     padding-bottom:10px;
     font-size:20px;
 }
-.work{
+.secondcontainer{
     display:flex;
+    flex-direction: row;
+    
 }
 .workheader{
     font-size: 40px;
     padding-top: 10px;
     padding-bottom: 10px;
+    display:flex;
+    padding-left: 10px;
+}
+#padding{
+    padding-left: 10px;
+}
+.project1{
+    width: 100px;
+    height: 100px;
+    justify-content: space-evenly;
+    display:flex;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-left: 150px;
+    flex-direction:row
+}
+.project2{
+    width: 100px;
+    height: 100px;
+    justify-content: space-evenly;
+    display:flex;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-left: 350px;
+    flex-direction:row
+}
+.project3{
+    width: 100px;
+    height: 100px;
+    justify-content: space-evenly;
+    display:flex;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-left: 650px;
+    flex-direction:row
 }
 /*Footer Styling*/
 footer{
