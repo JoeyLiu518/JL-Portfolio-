@@ -1,0 +1,155 @@
+/*Font import from google*/
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    background-color:darkgrey;
+    font-family:'Dosis', sans-serif;
+}
+/*styling for List, a href, and contact button*/
+li, a, button{
+    font-weight:500;
+    font-size:16px;
+    color:whitesmoke;
+    text-decoration:none;
+}
+header{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding:30px 10%;
+}
+/*Made it so a cursor appears on my name*/
+.Joey{
+    cursor:pointer;
+    margin-right:auto;
+    font-size:50px
+
+}
+.navlinks{
+    list-style: none;
+}
+.navlinks li{
+    display:inline-block;
+    padding:0px 20px;
+}
+/*When you hover over the a href tags they change color*/
+.navlinks li a{
+    transition: all 0.3s ease 0s;
+}
+.navlinks li a:hover{
+    color:rgba(0,136,169,0.6)
+}
+/*when you hover over the Contact buttont it changes to a ligter shade of blue also added a pointer button..*/
+button{
+    padding:9px 25px;
+    background:rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    background-color:rgba(0,136,169,0.6)
+}
+
+/*Picture before About Me section with subtitle*/
+.seattle{
+    width:100%;
+    display:flex;
+    margin:0;
+    padding:0;
+    position:relative;
+    align-items: center;
+}
+.seattle .seattle-img{
+    margin:0;
+    padding:0;
+    width:100%;
+    display:flex;
+    object-fit:cover;
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+    max-height: 250px;
+}
+
+#subtitle{
+    display: flex; 
+    flex-direction: column;
+    position:absolute;
+    bottom: 30px;
+    right:12%;
+    top: 75px;
+    padding: 5px;
+    background-color:transparent;
+    border:solid black 5px;
+    border-radius: 15%; 
+}
+.subtitlebackground{
+    background-color: transparent;
+}
+.maincontainer{
+    display:flex;
+}
+.joeyliu{
+    padding-top: 20px;
+    position:flex;
+}
+#joeyliupic{
+    border-radius: 30%;
+    position:flex;
+    height:300px;
+    width:300px;
+}
+.aboutme{
+    text-align: center;
+    display:flex;
+    flex-direction:column;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#aboutmeheader{
+    font-size: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#aboutmep{
+    padding-bottom:10px;
+    font-size:20px;
+}
+.work{
+    display:flex;
+}
+.workheader{
+    font-size: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/*Footer Styling*/
+footer{
+    height:100%;
+    width:100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+}
+/*When you hover over the h3 tags they change color*/
+h3 a{
+    transition: all 0.3s ease 0s;
+}
+h3 a:hover{
+    color:rgba(0,136,169,0.6)
+}
+
+/*make the font of my phone number white to reflect rest of the contact info along with hover change*/
+#whitenumber{
+    transition: all 0.3s ease 0s;
+    color:whitesmoke
+}
+#whitenumber:hover{
+    color:rgba(0,136,169,0.6)
+}
+
