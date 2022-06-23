@@ -34,7 +34,7 @@ header{
 }
 .navlinks li{
     display:inline-block;
-    padding:0px 20px;
+    padding:0px 10px;
 }
 /*When you hover over the a href tags they change color*/
 .navlinks li a{
@@ -54,6 +54,9 @@ button{
 }
 button:hover{
     background-color:rgba(0,136,169,0.6)
+}
+#transparentbutton{
+    background-color: transparent;
 }
 
 /*Picture before About Me section with subtitle*/
@@ -135,6 +138,7 @@ button:hover{
 #padding{
     padding-left: 10px;
 }
+/* Tried to move objects around to make it even, could not figure it out.*/
 .project1{
     width: 100px;
     height: 100px;
