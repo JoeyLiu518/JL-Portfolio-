@@ -150,6 +150,14 @@ button:hover{
     padding-top: 10px;
 }
 
+#project1{
+    width: 100px;
+    height: 100px;
+    display:flex;
+    cursor: pointer;
+    padding-top: 10px;
+}
+
 /*Footer Styling*/
 footer{
     height:100%;
